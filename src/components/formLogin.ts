@@ -1,15 +1,15 @@
 import { mapNodes } from '../declarations';
-
+import '../css/style.css';
 export function componentFormLogin() {
   return `
-    <div>
-      <input type="text" id=${mapNodes.inputEmail} placeholder="email" />
-    </div>
-    <div>
-      <input type="password" id=${mapNodes.inputPassword} placeholder="password" />
-    </div>
-    <div>
-      <button id=${mapNodes.buttonSignIn}>SignIn</button>
-    </div>
+    
+      <input type="text" id=${mapNodes.inputEmail} class= "inputLoginClass" placeholder="email" />
+   
+   
+      <input type="password" id=${mapNodes.inputPassword} class = "inputLoginClass" placeholder="password" />
+    
+   
+      <button id=${mapNodes.buttonSignIn} class = "btnLogin" >SignIn</button>
+    
   `;
 }
