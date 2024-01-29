@@ -2,11 +2,11 @@ body {
     margin: 0%;
     padding : 0%;
     box-sizing: border-box;
-    background-color: rgb(175, 240, 255);
+    background-color: rgb(195, 244, 255);
 }
 
 #root {
-    background-color: rgb(148, 239, 209);
+    background-color: rgb(164, 234, 210);
     position: relative;
     left: 30%;
     top: 100px;
@@ -43,17 +43,30 @@ margin-top: 30px;
 }
 
 .msgBox {
-margin-left: 230px;
-margin-top: 350px;
+position: relative;
+left: 120px;
+
+height: 400px;
+width: 400px;
+
+overflow: scroll;
+
 }
 
 .inputText {
-margin-left: 130px;
+
 height: 50px;
 width: 300px;
+position: absolute;
+left: 100px;
+top: 500px;
 }
 
 .btnSend {
 height: 50px;
 width: 100px;
+position: absolute;
+top: 500px;
+left: 450px;
+border-radius: 20px;
 }
